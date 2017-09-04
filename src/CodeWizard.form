@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.7" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Code Wizard"/>
+    <Property name="alwaysOnTop" type="boolean" value="true"/>
+    <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+      <Rectangle value="[100, 100, 0, 0]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="2" attributes="0">
+                          <Group type="102" alignment="2" attributes="0">
+                              <Component id="jLabelData" min="-2" pref="35" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldData" min="-2" pref="60" max="-2" attributes="2"/>
+                              <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                              <Component id="jComboBoxDataType" min="-2" pref="100" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Component id="jComboBoxRegister1" pref="92" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="jComboBoxRegister2" pref="114" max="32767" attributes="0"/>
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Component id="jComboBoxRegPair" min="-2" pref="129" max="-2" attributes="2"/>
+                          </Group>
+                          <Component id="jScrollPane1" alignment="2" pref="553" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jButton" min="-2" pref="127" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="178" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jButtonUndo" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jCheckBox1" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButtonRedo" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonCopy" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jScrollPane2" alignment="0" min="-2" pref="141" max="-2" attributes="1"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="2" attributes="0">
+              <EmptySpace min="212" pref="212" max="212" attributes="0"/>
+              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="369" pref="369" max="369" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="456" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" pref="422" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane2" pref="422" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelData" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldData" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBoxDataType" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBoxRegister1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBoxRegister2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBoxRegPair" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jCheckBox1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonCopy" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jButtonUndo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButtonRedo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" pref="14" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTree" name="jTree">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+                <MatteColorBorder>
+                  <Color PropertyName="color" blue="0" green="0" red="99" type="rgb"/>
+                </MatteColorBorder>
+              </Border>
+            </Property>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Arial" size="11" style="1"/>
+            </Property>
+            <Property name="model" type="javax.swing.tree.TreeModel" editor="org.netbeans.modules.form.editors2.TreeModelEditor">
+              <TreeModel code="Code Classification&#xa; Data Transfer Operation&#xa;  Load Data&#xa;    Register         &#x2190;   Data&#xa;    Accumulator  &#x2190;   Data&#xa;    Accumulator  &#x2190;   Data (from memory address directly)&#xa;    Accumulator  &#x2190;   Data (from memory address pointed by Reg Pair H-L)&#xa;    Accumulator  &#x2190;   Data (from memory address pointed by Reg. Pair)&#xa;    Register Pair &#x2190;   Data&#xa;    Reg. pair H-L  &#x2190;   Data (from memory address directly)&#xa;    Stack Pointer (SP)  &#x2190;  Reg. pair H-L&#xa;    Program Counter (PC)  &#x2190;   Reg. pair H-L&#xa;  Store Data&#xa;    Accumulator(Data)  &#x2192; Memory (at address specified directly)&#xa;    Accumulator(Data)  &#x2192; Memory (at address pointed by Reg Pair H-L)&#xa;    Accumulator(Data)  &#x2192; Memory (at address pointed by Reg. Pair)&#xa;    Reg. pair H-L(Data) &#x2192; Memory (at address specified directly)&#xa;&#xa;  Move Data&#xa;   Register &#x2190;  Register&#xa;  Stack&#xa;   Push&#xa;   Pop&#xa;  Exchange&#xa;    H-L   &#x2190;&#x2192;  D-E&#xa;    H-L   &#x2190;&#x2192;  Stack Top Pointer &#xa; Arithmetic Operation&#xa;  Addition&#xa;   Accumulator = Accumulator + Data&#xa;   Accumulator = Accumulator + Carry + Data&#xa;   Accumulator = Accumulator + Register&#xa;   Accumulator = Accumulator + Carry + Register&#xa;   Register Pair(H-L) = Register Pair(H-L) + Register Pair&#xa;&#xa;  Subtraction&#xa;   Accumulator = Accumulator - Data&#xa;   Accumulator = Accumulator - Borrow/Carry - Data&#xa;   Accumulator = Accumulator - Register&#xa;   Accumulator = Accumulator - Borrow/Carry - Register&#xa;&#xa;  Increment&#xa;   Increment Register&#xa;   Increment Register Pair&#xa;&#xa;  Decrement&#xa;   Decrement Register&#xa;   Decrement Register Pair&#xa;  Binary to BCD&#xa;   Decimal Adjust Accumulator &#xa;&#xa; Logical Operation&#xa;  And&#xa;   Accumulator = Accumulator &amp; Data&#xa;   Accumulator = Accumulator &amp; Register&#xa;  Or&#xa;   Accumulator = Accumulator | Data&#xa;   Accumulator = Accumulator | Register&#xa;  Xor&#xa;   Accumulator = Accumulator ^ Data&#xa;   Accumulator = Accumulator ^ Register&#xa;  Rotate&#xa;   Rotate Accumulator Left with carry&#xa;   Rotate Accumulator Left without carry&#xa;   Rotate Accumulator Right with carry&#xa;   Rotate Accumulator Right without carry&#xa;  Compare&#xa;   Accumulator -  Data&#xa;   Accumulator -  Register&#xa;  Complement&#xa;     Complement Accumulator&#xa;     Complement Carry&#xa;  Carry&#xa;     Set Carry [C=1]&#xa;     Complement Carry&#xa; Branching Operation&#xa;   Jump to a location&#xa;    Jump&#xa;    Jump on Positive&#xa;    Jump on Negative&#xa;    Jump on Zero&#xa;    Jump on not Zero&#xa;    Jump on Parity Even&#xa;    Jump on Parity Odd&#xa;    Jump on Carry&#xa;    Jump on no Carry&#xa;   Call a subroutine&#xa;    Call&#xa;    Call on Positive&#xa;    Call on Negative&#xa;    Call on Zero&#xa;    Call on not Zero&#xa;    Call on Parity Even&#xa;    Call on Parity Odd&#xa;    Call on Carry&#xa;    Call on no Carry&#xa;   Return from a subroutine&#xa;    Return&#xa;    Return on Positive&#xa;    Return on Negative&#xa;    Return on Zero&#xa;    Return on not Zero&#xa;    Return on Parity Even&#xa;    Return on Parity Odd&#xa;    Return on Carry&#xa;    Return on no Carry&#xa;   Restart(One line call instruction)&#xa;     Restart from memory loaction 0000&#xa;     Restart from memory loaction 0008&#xa;     Restart from memory loaction 0010&#xa;     Restart from memory loaction 0018&#xa;     Restart from memory loaction 0020&#xa;     Restart from memory loaction 0028&#xa;     Restart from memory loaction 0030&#xa;     Restart from memory loaction 0038&#xa;  Change Program Counter&#xa;    Program Counter (PC)  &#x2190;   Reg. pair H-L&#xa;  Change Stack Pointer&#xa;    Stack Pointer (SP)  &#x2190;  Reg. pair H-L&#xa;    H-L   &#x2190;&#x2192;  Stack Top Pointer&#xa;&#xa; I/O Operation&#xa;  Accumulator  &#x2190;  Input data &#xa;  Accumulator   &#x2192; Output data&#xa;&#xa; Interrupt Operation&#xa;  Halt Operation&#xa;  Enable Interrupt&#xa;  Disable Interrupt&#xa;  Read Interrupt Mask&#xa;  Set Interrupt Mask&#xa;&#xa; No Operation&#xa; "/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="jTree" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTreeMouseClicked"/>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTreeKeyReleased"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new ZebraJTree()"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JComboBox" name="jComboBoxRegister1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="8">
+            <StringItem index="0" value="Accumulator"/>
+            <StringItem index="1" value="Register B"/>
+            <StringItem index="2" value="Register C"/>
+            <StringItem index="3" value="Register D"/>
+            <StringItem index="4" value="Register E"/>
+            <StringItem index="5" value="Register H"/>
+            <StringItem index="6" value="Register L"/>
+            <StringItem index="7" value="Memory(M)"/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jComboBoxRegister1" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxRegister1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxRegPair">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Register Pair B - C"/>
+            <StringItem index="1" value="Register Pair D - E"/>
+            <StringItem index="2" value="Register Pair H - L"/>
+            <StringItem index="3" value="Stack Pointer"/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jComboBoxRegPair" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxRegPairActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldData">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="focusCycleRoot" type="boolean" value="true"/>
+        <Property name="name" type="java.lang.String" value="jTextFieldData" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldDataActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jTextFieldDataKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelData">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data : "/>
+        <Property name="name" type="java.lang.String" value="jLabelData" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxDataType">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Binary"/>
+            <StringItem index="1" value="Decimal"/>
+            <StringItem index="2" value="Hexadecimal"/>
+            <StringItem index="3" value="ASCII"/>
+          </StringArray>
+        </Property>
+        <Property name="selectedIndex" type="int" value="2"/>
+        <Property name="name" type="java.lang.String" value="jComboBoxDataType" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxDataTypeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxRegister2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="8">
+            <StringItem index="0" value="Accumulator"/>
+            <StringItem index="1" value="Register B"/>
+            <StringItem index="2" value="Register C"/>
+            <StringItem index="3" value="Register D"/>
+            <StringItem index="4" value="Register E"/>
+            <StringItem index="5" value="Register H"/>
+            <StringItem index="6" value="Register L"/>
+            <StringItem index="7" value="Memory(M)"/>
+          </StringArray>
+        </Property>
+        <Property name="name" type="java.lang.String" value="jComboBoxRegister2" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxRegister2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jScrollPane2" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextAreaCode">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="6"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Monospaced" size="13" style="1"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="name" type="java.lang.String" value="jTextAreaCode" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="caretUpdate" listener="javax.swing.event.CaretListener" parameters="javax.swing.event.CaretEvent" handler="jTextAreaCodeCaretUpdate"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OK"/>
+        <Property name="name" type="java.lang.String" value="jButton" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="0" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="         Rough Work"/>
+        <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="66" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Code Guide "/>
+        <Property name="name" type="java.lang.String" value="jLabel2" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="11" style="1"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="N.B: Copy Rough work to the main workspace."/>
+        <Property name="name" type="java.lang.String" value="jLabel3" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Append"/>
+        <Property name="name" type="java.lang.String" value="jCheckBox1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonUndo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Undo"/>
+        <Property name="name" type="java.lang.String" value="jButtonUndo" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonUndoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonRedo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Redo"/>
+        <Property name="name" type="java.lang.String" value="jButtonRedo" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonRedoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonCopy">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Copy"/>
+        <Property name="name" type="java.lang.String" value="jButtonCopy" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonCopyActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

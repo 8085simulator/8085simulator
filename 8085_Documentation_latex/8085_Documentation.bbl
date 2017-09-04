@@ -1,0 +1,56 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 1.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{intel}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {{Intel Corporation}}{I.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{I2}
+  \strng{fullhash}{I2}
+  \field{title}{Intel 8080-8085 Assembly Language Programming Guide}
+  \field{year}{1978}
+\endentry
+
+\entry{hex}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Intel}{I.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{I1}
+  \strng{fullhash}{I1}
+  \field{subtitle}{Revision A}
+  \field{title}{Hexadecimal Object File Format Specification}
+  \verb{url}
+  \verb http://microsym.com/editor/assets/intelhex.pdf
+  \endverb
+  \field{journaltitle}{journaltitle}
+  \warn{\item Invalid format of field 'date' \item Invalid format of field
+  'date'}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

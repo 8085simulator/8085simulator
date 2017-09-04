@@ -1,0 +1,57 @@
+\chapter{Assembler Directives}
+The assembler directives\cite{intel} are the instructions to the assembler concerning the program being assembled; they also are called \textit{pseudo instructions} or \textit{pseudo opcodes}.
+
+In the Assembler Editor, the Assembler Directives \textbf{must be
+preceded by }\textbf{`.'} or \textbf{`\#'}. The editor would then understand and would automatically change font foreground color to red color. Since execution of assembler directives do not assign any machine code but it directs the assembler engine and the memory loader to load a specific user code at user defined position. So it \textbf{loads code directly in the MEMORY EDITOR, it's output code is not visible in ASSEMBLER WORKSPACE}. \Cref{sec:asm:dir} lists the assembler directives that are currently supported by the assembler.
+
+\section{Directives}
+\label{sec:asm:dir}
+\begin{table}[htbp]
+\centering
+\begin{tabular}{lcll}
+&\textbf{Assembler} & \textbf{Example} & \textbf{Description}\\
+&\textbf{Directives} & &\\
+1.&ORG & \# ORG C000H & The next block of instruction should be stored \\
+&(Origin)&& in memory locations starting at C000H\\&&&\\
+2. & BEGIN & \# BEGIN 2000H & To start simulation from address 2000H\\
+&(Start)&&\\&&&\\
+3. & END & \# END & End of Assembly. It places the mnemonic defined \\
+&(Stop)&& at "Settings $ \rightarrow $ Stop Simulation at Mnemonic"\\&&&\\
+4. & EQU & \# OUTBUF EQU 3945H & The value of the label OUTBUF is 3945H.\\
+&(Equal)&& This may be used as memory location.\\&&&\\
+5.& DB & \# DATA: DB F5H,12H & Initializes an area byte by byte,in successive memory locations\\
+&(Define Byte)&&  until all values are  stored. Label DATA stores the initial address.\\&&&\\
+6.& DW & \# LABEL: DW 2050H & Initializes an area two bytes at a time.\\
+&(Define Word)&&\\&&&\\
+7. & DS & \# STACK: DS 4 & Reserves a specified number of memory locations and set\\
+&(Define Storage)&& the initial address to label STACK.
+\end{tabular}
+\end{table}
+
+\pagebreak
+\section{Number Format Support}
+The Assembler for both code and assembler directive support flexible number entry mode
+
+\paragraph{Binary Number Entry Format}
+\begin{itemize}
+\item  Digits should consists of 1's and 0's.
+\item The number of digits must be greater than 4, to prevent confusion with default Hexadecimal mode.
+\item The number must be followed by character 'b' or 'B', to indicate that it is a binary number.\\
+\textit{Example:} To enter ``F''(Hexadecimal Number) write it as  01111\textbf{B} or 01111\textbf{b}
+\end{itemize}
+ 
+\paragraph{Decimal Number Entry Format}
+\begin{itemize}
+\item  Digits should be within 0-9.
+\item The number of digits must be greater than 4, to prevent confusion with default Hexadecimal mode.
+\item The number must be followed by character 'd' or 'D', to indicate that it is a decimal number.\\
+\textit{Example:} To enter ``F''(Hexadecimal Number) write it as  0015\textbf{D} or 0015\textbf{d}
+\end{itemize}
+
+\paragraph{Hexadecimal Number Entry Format}
+ \begin{itemize}
+ \item  Digits should be within 0-9 and A-F.
+ \item The number of digits can be of any size
+ \item The number may be followed by character 'h' or 'H', to indicate that it is a hexadecimal number.\\
+ \textit{Example:} To enter ``F''(Hexadecimal Number) write it as  0F\textbf{H} or 0F\textbf{h} or just 0F
+ \end{itemize}

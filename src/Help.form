@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Help "/>
+    <Property name="bounds" type="java.awt.Rectangle" editor="org.netbeans.beaninfo.editors.RectangleEditor">
+      <Rectangle value="[30, 5, 500, 500]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="523" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jTabbedPane2" min="-2" pref="1090" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="544" max="32767" attributes="0"/>
+              <Component id="jButton1" min="-2" pref="107" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="459" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="14" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jTabbedPane2" min="-2" pref="593" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jButton1" max="32767" attributes="0"/>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="0" red="66" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="8085 INSTRUCTION SET "/>
+        <Property name="name" type="java.lang.String" value="jLabel1" noResource="true"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
+      <Properties>
+        <Property name="tabPlacement" type="int" value="2"/>
+        <Property name="name" type="java.lang.String" value="jTabbedPane2" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="DATA TRANSFER INSTRUCTIONS ">
+                <Property name="tabTitle" type="java.lang.String" value="DATA TRANSFER INSTRUCTIONS "/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Monospaced" size="13" style="1"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Opcode      Operand                    Description &#xa;&#xa;Copy from source to destination &#xa;MOV         Rd, Rs                     This instruction copies the contents of the source &#xa;            M, Rs                      register into the destination register; the contents of &#xa;            Rd, M                      the source register are not altered. If one of the operands is a &#xa;                                       memory location, its location is specified by the contents of &#xa;                                       the HL registers. &#xa;                                       Example:  MOV B, C      or  MOV B, M &#xa;&#xa;Move immediate 8-bit &#xa;MVI         Rd, data                   The 8-bit data is stored in the destination register or &#xa;            M, data                    memory.    If the operand is a memory location, its location is &#xa;                                       specified by the contents of the HL registers. &#xa;                                       Example:  MVI B, 57H  or  MVI M, 57H &#xa;&#xa;Load accumulator &#xa;LDA         16-bit address             The contents of a memory location, specified by a &#xa;                                       16-bit address in the operand, are copied to the accumulator. &#xa;                                       The contents of the source are not altered. &#xa;                                       Example:  LDA 2034H &#xa;&#xa;Load accumulator indirect &#xa;LDAX        B/D Reg. pair              The contents of the designated register pair point to a memory &#xa;                                       location. This instruction copies the contents of that memory &#xa;                                       location  into  the  accumulator.   The  contents  of  either  the &#xa;                                       register pair or the memory location are not altered. &#xa;                                       Example:  LDAX B &#xa;&#xa;Load register pair immediate &#xa;LXI         Reg. pair, 16-bit data     The   instruction   loads  16-bit  data   in the  register   pair &#xa;                                       designated in the operand. &#xa;                                       Example:  LXI H, 2034H      or  LXI H, XYZ &#xa;&#xa;Load H and L registers direct &#xa;LHLD        16-bit address             The  instruction  copies the  contents  of the  memory  location &#xa;                                       pointed  out by the  16-bit address into register L  and copies &#xa;                                       the contents of the next memory location into register H.    The &#xa;                                       contents of source memory locations are not altered. &#xa;                                       Example:  LHLD 2040H &#xa;&#xa;Store accumulator direct &#xa;STA         16-bit address              The contents of the accumulator are copied into the memory &#xa;                                        location specified by the operand.    This is a 3-byte instruction, &#xa;                                        the second byte specifies the low-order address and the third &#xa;                                        byte specifies the high-order address. &#xa;                                        Example:  STA 4350H &#xa;&#xa;Store accumulator indirect &#xa;STAX        Reg. pair                   The contents of the accumulator are copied into the memory &#xa;                                        location  specified  by  the  contents  of  the  operand  (register &#xa;                                        pair).  The contents of the accumulator are not altered. &#xa;                                        Example:  STAX B &#xa;&#xa;Store H and L registers direct &#xa;SHLD        16-bit address              The contents of register L are stored into the memory location &#xa;                                        specified by the 16-bit address in the operand and the contents &#xa;                                        of  H  register  are  stored  into  the  next  memory  location  by &#xa;                                        incrementing the operand.      The contents of registers HL are &#xa;                                        not  altered.  This  is  a  3-byte  instruction,  the  second  byte &#xa;                                        specifies the low-order address and the third byte specifies the &#xa;                                        high-order address. &#xa;                                        Example:  SHLD 2470H &#xa;&#xa;Exchange H and L with D and E &#xa;XCHG        none                        The contents of register H are exchanged with the contents of &#xa;                                        register D, and the contents of register L are exchanged with &#xa;                                        the contents of register E. &#xa;                                        Example:  XCHG &#xa;&#xa;Copy H and L registers to the stack pointer &#xa;SPHL        none                        The instruction loads the contents of the H and L registers into &#xa;                                        the  stack  pointer  register,  the contents   of  the H  register &#xa;                                        provide  the  high-order  address  and  the  contents  of  the  L &#xa;                                        register provide the low-order address.    The contents of the H &#xa;                                        and L registers are not altered. &#xa;                                        Example:  SPHL &#xa;&#xa;Exchange H and L with top of stack &#xa;XTHL        none                        The contents of the L register  are exchanged with the  stack &#xa;                                        location  pointed   out  by  the contents  of  the  stack  pointer &#xa;                                        register.  The contents of the H register  are exchanged with &#xa;                                        the next  stack location (SP+1); however, the contents of the &#xa;                                        stack pointer register are not altered. &#xa;                                        Example:  XTHL &#xa;&#xa;Push register pair onto stack &#xa;PUSH        Reg. pair                   The contents of the register pair designated in the operand are &#xa;                                        copied onto the  stack in the  following sequence.      The stack &#xa;                                        pointer register is decremented and the contents of the high- &#xa;                                        order register (B, D, H, A) are copied into that location.     The &#xa;                                        stack pointer register is decremented again and the contents of &#xa;                                        the  low-order  register   (C,  E,  L,  flags)  are  copied  to  that &#xa;                                        location. &#xa;                                        Example:  PUSH B or PUSH A &#xa;&#xa;Pop off stack to register pair &#xa;POP         Reg. pair                   The contents of the memory location pointed out by the stack &#xa;                                        pointer register are copied to the low-order register (C, E, L, &#xa;                                        status flags) of the operand.   The stack pointer is incremented &#xa;                                        by  1 and the contents of that memory location are copied to &#xa;                                        the high-order register (B, D, H, A) of the operand.     The stack &#xa;                                        pointer register is again incremented by 1. &#xa;                                        Example:  POP H or POP A &#xa;&#xa;Output data from accumulator to a port with 8-bit address &#xa;OUT         8-bit port address          The contents of the accumulator are copied into the I/O port &#xa;                                        specified by the operand. &#xa;                                        Example:  OUT F8H &#xa;&#xa;Input data to accumulator from a port with 8-bit address &#xa;IN          8-bit port address          The contents of the input port  designated in the operand are &#xa;                                        read and loaded into the accumulator. &#xa;                                        Example:  IN 8CH &#xa;" noResource="true"/>
+                <Property name="name" type="java.lang.String" value="jTextArea1" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jScrollPane2" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="ARITHMETIC INSTRUCTIONS ">
+                <Property name="tabTitle" type="java.lang.String" value="ARITHMETIC INSTRUCTIONS "/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea2">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Monospaced" size="13" style="1"/>
+                </Property>
+                <Property name="lineWrap" type="boolean" value="true"/>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Opcode      Operand                      Description &#xa;&#xa;Add register or memory to accumulator &#xa;ADD         R                            The contents of the operand (register or memory) are &#xa;            M                            added  to  the  contents  of  the  accumulator  and  the  result  is &#xa;                                         stored  in  the  accumulator.      If the  operand    is a  memory &#xa;                                         location,  its  location  is  specified by  the  contents  of the  HL &#xa;                                         registers.  All  flags are modified  to  reflect  the result  of the &#xa;                                         addition. &#xa;                                         Example:  ADD B  or  ADD M &#xa;&#xa;Add register to accumulator with carry &#xa;ADC         R                            The contents of the operand (register or memory) and &#xa;            M                            the  Carry flag are added to the  contents of the  accumulator &#xa;                                         and the result is stored in the accumulator.     If the operand is a &#xa;                                         memory location, its location is specified by the contents of &#xa;                                         the HL registers.   All flags are modified to reflect the result of &#xa;                                         the addition. &#xa;                                         Example:  ADC B or ADC M &#xa;&#xa;Add immediate to accumulator &#xa;ADI         8-bit data                   The   8-bit  data  (operand)  is  added  to  the   contents  of  the &#xa;                                         accumulator and the result is stored in the accumulator.         All &#xa;                                         flags are modified to reflect the result of the addition. &#xa;                                         Example:  ADI  45H &#xa;&#xa;Add immediate to accumulator with carry &#xa;ACI         8-bit data                   The 8-bit data (operand) and the Carry flag are added to the &#xa;                                         contents  of  the  accumulator  and  the  result  is  stored  in  the &#xa;                                         accumulator.    All flags are modified to reflect the result of the &#xa;                                         addition. &#xa;                                         Example:  ACI  45H &#xa;&#xa;Add register pair to H and L registers &#xa;DAD         Reg. pair                    The  16-bit contents of the specified register pair are added to &#xa;                                         the contents of the HL register and the  sum is        stored in the &#xa;                                         HL register.    The contents of the source register pair are not &#xa;                                         altered.  If the result is larger than  16 bits, the CY flag is set. &#xa;                                         No other flags are affected. &#xa;                                         Example:  DAD H &#xa;&#xa;Subtract register or memory from accumulator &#xa;SUB         R                            The contents of the operand (register or memory ) are &#xa;            M                            subtracted from the contents of the accumulator, and the result &#xa;                                         is  stored  in  the  accumulator.   If  the  operand  is  a  memory &#xa;                                         location,  its  location  is  specified by  the  contents  of the  HL &#xa;                                         registers.  All  flags are modified  to  reflect  the result  of the &#xa;                                         subtraction. &#xa;                                         Example:  SUB B  or  SUB M &#xa;&#xa;Subtract source and borrow from accumulator &#xa;SBB         R                            The contents of the operand (register or memory ) and &#xa;            M                            the  Borrow    flag  are  subtracted  from  the    contents  of  the &#xa;                                         accumulator and the result is placed in the accumulator.           If &#xa;                                         the operand is a memory location, its location is specified by &#xa;                                         the  contents  of the  HL registers.    All  flags  are modified  to &#xa;                                         reflect the result of the subtraction. &#xa;                                         Example:  SBB B or SBB M &#xa;&#xa;Subtract immediate from accumulator &#xa;SUI         8-bit data                   The 8-bit data (operand) is subtracted from the contents of the &#xa;                                         accumulator and the result is stored in the accumulator.         All &#xa;                                         flags are modified to reflect the result of the subtraction. &#xa;                                         Example:  SUI  45H &#xa;&#xa;Subtract immediate from accumulator with borrow &#xa;SBI         8-bit data                   The  8-bit data (operand) and the Borrow flag are subtracted &#xa;                                         from the contents of the accumulator and the result is stored &#xa;                                         in the accumulator.    All flags are modified to reflect the result &#xa;                                         of the subtracion. &#xa;                                         Example:  SBI  45H &#xa;&#xa;Increment register or memory by 1 &#xa;INR         R                            The contents of the designated register or memory) are &#xa;            M                            incremented by  1 and the result is stored in the same place.      If &#xa;                                         the operand is a memory location, its location is specified by &#xa;                                         the contents of the HL registers. &#xa;                                         Example:  INR B  or  INR M &#xa;&#xa;Increment register pair by 1 &#xa;INX         R                            The contents of the designated register pair  are incremented &#xa;                                         by 1 and the result is stored in the same place. &#xa;                                         Example:  INX H &#xa;&#xa;Decrement register or memory by 1 &#xa;DCR         R                            The contents of the designated register or memory are &#xa;            M                            decremented by  1 and the result is stored in the same place.      If &#xa;                                         the operand is a memory location, its location is specified by &#xa;                                         the contents of the HL registers. &#xa;                                         Example:  DCR B  or  DCR M &#xa;&#xa;Decrement register pair by 1 &#xa;DCX         R                            The contents of the designated register pair are decremented &#xa;                                         by 1 and the result is stored in the same place. &#xa;                                         Example:  DCX H &#xa;&#xa;Decimal adjust accumulator &#xa;DAA         none                         The  contents  of the  accumulator  are  changed  from a binary &#xa;                                         value to two 4-bit binary coded decimal (BCD) digits.        This is &#xa;                                         the only instruction that uses the auxiliary flag to perform the &#xa;                                         binary  to BCD  conversion, and the  conversion procedure  is &#xa;                                         described below.     S, Z, AC, P, CY flags are altered to reflect &#xa;                                         the results of the operation. &#xa;&#xa;                                         If  the  value  of  the  low-order  4-bits  in  the  accumulator  is &#xa;                                         greater than 9 or if AC flag is set, the instruction adds 6 to the &#xa;                                         low-order four bits. &#xa;&#xa;                                         If  the  value  of  the  high-order  4-bits  in  the  accumulator  is &#xa;                                         greater than 9 or if the Carry flag is set, the instruction adds 6 &#xa;                                         to the high-order four bits. &#xa;&#xa;                                         Example:  DAA &#xa;"/>
+                <Property name="name" type="java.lang.String" value="jTextArea2" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jScrollPane3" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="BRANCHING INSTRUCTIONS ">
+                <Property name="tabTitle" type="java.lang.String" value="BRANCHING INSTRUCTIONS "/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea3">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Monospaced" size="13" style="1"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Opcode     Operand                    Description &#xa;&#xa;Jump unconditionally &#xa;JMP         16-bit address            The program  sequence is transferred to the memory location &#xa;                                      specified by the 16-bit address given in the operand. &#xa;                                      Example:  JMP 2034H  or JMP XYZ &#xa;&#xa;Jump conditionally &#xa;&#xa;    Operand:  16-bit address &#xa;&#xa;                                      The program  sequence is transferred to the memory location &#xa;                                      specified by the  16-bit address given in the operand based on &#xa;                                      the specified flag of the PSW as described below. &#xa;                                      Example:  JZ 2034H  or JZ XYZ &#xa;&#xa;    Opcode           Description             Flag Status &#xa;      JC             Jump on Carry             CY = 1 &#xa;      JNC            Jump on no Carry          CY = 0 &#xa;      JP             Jump on positive          S = 0 &#xa;      JM             Jump on minus             S = 1 &#xa;      JZ             Jump on zero              Z = 1 &#xa;      JNZ            Jump on no zero           Z = 0 &#xa;      JPE            Jump on parity even       P = 1 &#xa;      JPO            Jump on parity odd        P = 0 &#xa;&#xa;&#xa;Unconditional subroutine call &#xa;CALL        16-bit address             The program  sequence is transferred to the memory location &#xa;                                       specified by the  16-bit address given in the operand.    Before &#xa;                                       the  transfer, the  address of the next  instruction  after CALL &#xa;                                       (the contents of the program counter) is pushed onto the stack. &#xa;                                       Example:  CALL 2034H  or CALL XYZ &#xa;&#xa;Call conditionally &#xa;&#xa;    Operand:   16-bit address &#xa;&#xa;                                       The program  sequence is transferred to the memory location &#xa;                                       specified by the  16-bit address given in the operand based on &#xa;                                       the specified flag of the PSW as described below.     Before the &#xa;                                       transfer, the address of the next instruction after the call (the &#xa;                                       contents of the program counter) is pushed onto the stack. &#xa;                                       Example:  CZ 2034H  or CZ XYZ &#xa;&#xa;    Opcode           Description               Flag Status &#xa;      CC             Call on Carry               CY = 1 &#xa;      CNC            Call on no Carry            CY = 0 &#xa;      CP             Call on positive            S = 0 &#xa;      CM             Call on minus               S = 1 &#xa;      CZ             Call on zero                Z = 1 &#xa;      CNZ            Call on no zero             Z = 0 &#xa;      CPE            Call on parity even         P = 1 &#xa;      CPO            Call on parity odd          P = 0 &#xa;&#xa;&#xa;Return from subroutine unconditionally &#xa;RET        none                      The program  sequence is transferred  from the  subroutine to &#xa;                                     the calling program.  The two bytes from the top of the stack &#xa;                                     are copied into the program  counter, and program  execution &#xa;                                     begins at the new address. &#xa;                                     Example:  RET &#xa;&#xa;Return from subroutine conditionally &#xa;&#xa;    Operand:  none &#xa;&#xa;                                     The program  sequence is transferred  from the  subroutine to &#xa;                                     the calling program based on the specified flag of the PSW as &#xa;                                     described below.  The two bytes from the top of the stack are &#xa;                                     copied  into  the  program counter,  and  program   execution &#xa;                                     begins at the new address. &#xa;                                     Example:  RZ &#xa;&#xa;    Opcode          Description             Flag Status &#xa;      RC            Return on Carry           CY = 1 &#xa;      RNC           Return on no Carry        CY = 0 &#xa;      RP            Return on positive        S = 0 &#xa;      RM            Return on minus           S = 1 &#xa;      RZ            Return on zero            Z = 1 &#xa;      RNZ           Return on no zero         Z = 0 &#xa;      RPE           Return on parity even     P = 1 &#xa;      RPO           Return on parity odd      P = 0 &#xa;&#xa;&#xa;Load program counter with HL contents &#xa;PCHL        none                       The contents of registers H and L are copied into the program &#xa;                                       counter.  The contents of H are placed as the high-order byte &#xa;                                       and the contents of L as the low-order byte. &#xa;                                       Example:  PCHL &#xa;&#xa;Restart &#xa;RST         0-7                        The RST instruction is equivalent to a  1-byte call instruction &#xa;                                       to one of eight memory locations depending upon the number. &#xa;                                       The   instructions  are  generally   used  in  conjunction   with &#xa;                                       interrupts  and  inserted  using  external  hardware.   However &#xa;                                       these  can be  used  as  software  instructions  in  a program  to &#xa;                                       transfer program execution to one of the eight locations.     The &#xa;                                       addresses are: &#xa;&#xa;                                           Instruction           Restart Address &#xa;                                              RST 0                  0000H &#xa;                                              RST 1                  0008H &#xa;                                              RST 2                  0010H &#xa;                                              RST 3                  0018H &#xa;                                              RST 4                  0020H &#xa;                                              RST 5                  0028H &#xa;                                              RST 6                  0030H &#xa;                                              RST 7                  0038H &#xa;&#xa;                                       The  8085 has  four additional interrupts and these  interrupts &#xa;                                       generate RST instructions internally and thus do not require &#xa;                                       any external hardware.     These instructions and their Restart &#xa;                                       addresses are: &#xa;&#xa;                                             Interrupt           Restart Address &#xa;                                              TRAP                   0024H &#xa;                                              RST 5.5                002CH &#xa;                                              RST 6.5                0034H &#xa;                                              RST 7.5                003CH &#xa;"/>
+                <Property name="name" type="java.lang.String" value="jTextArea3" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jScrollPane4" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="LOGICAL INSTRUCTIONS ">
+                <Property name="tabTitle" type="java.lang.String" value="LOGICAL INSTRUCTIONS "/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea4">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Monospaced" size="13" style="1"/>
+                </Property>
+                <Property name="rows" type="int" value="5"/>
+                <Property name="text" type="java.lang.String" value="Opcode       Operand                     Description &#xa;&#xa;Compare register or memory with accumulator &#xa;CMP         R                             The contents of the operand (register or memory) are &#xa;            M                             compared    with   the  contents    of  the  accumulator.      Both &#xa;                                          contents  are  preserved    .  The  result  of  the  comparison  is &#xa;                                          shown by setting the flags of the PSW as follows: &#xa;                                          if (A) &lt; (reg/mem):  carry flag is set &#xa;                                          if (A) = (reg/mem):  zero flag is set &#xa;                                          if (A) &gt; (reg/mem):  carry and zero flags are reset &#xa;                                         Example:  CMP B        or  CMP M &#xa;&#xa;Compare immediate with accumulator &#xa;CPI          8-bit data                   The second byte (8-bit data) is compared with the contents of &#xa;                                         the   accumulator.       The   values   being   compared     remain &#xa;                                         unchanged.     The result of the comparison is shown by setting &#xa;                                         the flags of the PSW as follows: &#xa;                                          if (A) &lt; data:  carry flag is set &#xa;                                          if (A) = data:  zero flag is set &#xa;                                          if (A) &gt; data:  carry and zero flags are reset &#xa;                                         Example:  CPI 89H &#xa;&#xa;Logical AND register or memory with accumulator &#xa;ANA         R                             The contents of the accumulator are logically ANDed with &#xa;            M                            the  contents  of  the  operand  (register  or  memory),  and  the &#xa;                                         result  is  placed  in  the  accumulator.      If  the operand  is   a &#xa;                                         memory  location, its address is  specified by the  contents of &#xa;                                         HL registers.    S, Z, P are modified to reflect the result of the &#xa;                                          operation.  CY is reset.  AC is set. &#xa;                                         Example:  ANA B or ANA M &#xa;&#xa;Logical AND immediate with accumulator &#xa;ANI          8-bit data                   The contents of the accumulator are logically ANDed with the &#xa;                                          8-bit  data   (operand)    and   the   result   is placed    in  the &#xa;                                          accumulator.    S, Z, P are modified to reflect the result of the &#xa;                                          operation.  CY is reset.  AC is set. &#xa;                                         Example:  ANI 86H &#xa;&#xa;Exclusive OR register or memory with accumulator &#xa;XRA         R                          The contents of the accumulator are Exclusive ORed with &#xa;            M                          the  contents  of  the  operand  (register  or  memory),  and  the &#xa;                                      result  is  placed in  the accumulator.    If  the operand  is  a &#xa;                                       memory  location, its address is  specified by the  contents of &#xa;                                       HL registers.  S, Z, P are modified to reflect the result of the &#xa;                                       operation.  CY and AC are reset. &#xa;                                       Example:  XRA B or XRA M &#xa;&#xa;Exclusive OR immediate with accumulator &#xa;XRI         8-bit data                 The contents of the accumulator are Exclusive ORed with the &#xa;                                       8-bit  data  (operand)   and   the  result  is  placed   in  the &#xa;                                       accumulator.   S, Z, P are modified to reflect the result of the &#xa;                                       operation.  CY and AC are reset. &#xa;                                       Example:  XRI 86H &#xa;&#xa;Logical OR register or memory with accumulaotr &#xa;ORA         R                          The contents of the accumulator are logically ORed with &#xa;            M                          the  contents  of  the  operand  (register  or  memory),  and  the &#xa;                                      result  is  placed in  the accumulator.    If  the operand  is  a &#xa;                                       memory  location, its address is  specified by the  contents of &#xa;                                       HL registers.  S, Z, P are modified to reflect the result of the &#xa;                                       operation.  CY and AC are reset. &#xa;                                       Example:  ORA B or ORA M &#xa;&#xa;Logical OR immediate with accumulator &#xa;ORI         8-bit data                 The contents of the accumulator are logically ORed with the &#xa;                                       8-bit  data  (operand)   and   the  result  is  placed   in  the &#xa;                                       accumulator.   S, Z, P are modified to reflect the result of the &#xa;                                       operation.  CY and AC are reset. &#xa;                                       Example:  ORI 86H &#xa;&#xa;Rotate accumulator left &#xa;RLC         none                       Each  binary  bit  of  the  accumulator  is  rotated  left  by  one &#xa;                                      position.  Bit D7 is placed in the position of D0 as well as in &#xa;                                       the Carry flag. CY is modified according to bit D7.     S, Z, P, &#xa;                                       AC are not affected. &#xa;                                       Example:  RLC &#xa;&#xa;Rotate accumulator right &#xa;RRC         none                       Each  binary  bit  of  the  accumulator  is  rotated  right  by  one &#xa;                                      position.  Bit D0 is placed in the position of D7 as well as in &#xa;                                       the Carry flag. CY is modified according to bit D0.     S, Z, P, &#xa;                                       AC are not affected. &#xa;                                       Example:  RRC &#xa;&#xa;&#xa;Rotate accumulator left through carry &#xa;RAL         none                         Each  binary  bit  of  the  accumulator  is  rotated  left  by  one &#xa;                                         position through the Carry flag.     Bit D7 is placed in the Carry &#xa;                                         flag,  and  the  Carry  flag  is  placed  in  the  least  significant &#xa;                                         position D0.  CY is modified according to bit D7.       S, Z, P, AC &#xa;                                         are not affected. &#xa;                                         Example:  RAL &#xa;&#xa;Rotate accumulator right through carry &#xa;RAR         none                         Each  binary  bit  of  the  accumulator  is  rotated  right  by  one &#xa;                                         position through the Carry flag.     Bit D0 is placed in the Carry &#xa;                                         flag,  and  the  Carry  flag  is  placed  in  the  most  significant &#xa;                                         position D7.  CY is modified according to bit D0.       S, Z, P, AC &#xa;                                         are not affected. &#xa;                                         Example:  RAR &#xa;&#xa;Complement accumulator &#xa;CMA         none                         The contents of the accumulator are complemented.          No flags &#xa;                                         are affected. &#xa;                                         Example:  CMA &#xa;&#xa;Complement carry &#xa;CMC         none                         The Carry flag is complemented.  No other flags are affected. &#xa;                                         Example:  CMC &#xa;&#xa;Set Carry &#xa;STC         none                         The Carry flag is set to 1.  No other flags are affected. &#xa;                                         Example:  STC &#xa;"/>
+                <Property name="name" type="java.lang.String" value="jTextArea4" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jScrollPane5" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="CONTROL INSTRUCTIONS ">
+                <Property name="tabTitle" type="java.lang.String" value="CONTROL INSTRUCTIONS "/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea5">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Monospaced" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Opcode      Operand                     Description &#xa;&#xa;No operation &#xa;NOP         none                        No  operation  is performed.     The  instruction  is  fetched  and &#xa;                                        decoded.  However no operation is executed. &#xa;                                        Example:  NOP &#xa;&#xa;Halt and enter wait state &#xa;HLT         none                        The CPU finishes executing the current instruction and halts &#xa;                                        any further execution.     An  interrupt or reset  is necessary to &#xa;                                        exit from the halt state. &#xa;                                        Example:  HLT &#xa;&#xa;Disable interrupts &#xa;DI          none                        The  interrupt  enable  flip-flop  is reset  and  all the  interrupts &#xa;                                        except the TRAP are disabled.  No flags are affected. &#xa;                                        Example:  DI &#xa;&#xa;Enable interrupts &#xa;EI          none                        The  interrupt  enable  flip-flop  is  set  and  all  interrupts  are &#xa;                                        enabled.   No  flags are affected.    After  a system reset  or the &#xa;                                        acknowledgement  of  an  interrupt,  the  interrupt  enable  flip- &#xa;                                        flop is reset, thus disabling the interrupts.   This instruction is &#xa;                                        necessary to reenable the interrupts (except TRAP). &#xa;                                        Example:  EI &#xa;&#xa;Read interrupt mask &#xa;RIM          none                         This is a multipurpose  instruction used to read the  status of &#xa;                                          interrupts  7.5,  6.5,  5.5  and  read  serial  data  input  bit. The &#xa;                                          instruction   loads   eight  bits  in  the  accumulator     with  the &#xa;                                          following interpretations. &#xa;                                          Example:  RIM &#xa;&#xa;Set interrupt mask &#xa;SIM          none                         This is a multipurpose instruction and used to implement the &#xa;                                          8085  interrupts  7.5,  6.5,  5.5,  and  serial  data  output.   The &#xa;                                          instruction interprets the accumulator contents as follows. &#xa;                                          Example:  SIM &#xa;"/>
+                <Property name="name" type="java.lang.String" value="jTextArea5" noResource="true"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="OK"/>
+        <Property name="name" type="java.lang.String" value="jButton1" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

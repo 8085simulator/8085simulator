@@ -1,0 +1,35 @@
+\section{Intel HEX}
+Intel HEX\cite{hex}  is a file format for conveying binary information for programming 8085 microprocessor. The assembler converts the program's assembly language code to machine code and outputs it into a HEX file. That file is then imported by a programmer to "burn" the machine code to the 8085 target system for loading and execution.
+
+\begin{figure}[H]
+\centering
+\includegraphics{"./disassemble"}
+\begin{tabular}{cl}
+{\color[HTML]{999900}\rule{0.5cm}{0.5cm}} & Start Code\\
+{\color[HTML]{009900}\rule{0.5cm}{0.5cm}} & Byte count\\
+{\color[HTML]{4C0099}\rule{0.5cm}{0.5cm}} & Address\\
+{\color[HTML]{990099}\rule{0.5cm}{0.5cm}} & Record type\\
+{\color[HTML]{009999}\rule{0.5cm}{0.5cm}} & Data\\
+{\color[HTML]{999999}\rule{0.5cm}{0.5cm}} & Checksum
+\end{tabular}
+
+\caption[width=0.75\linewidth]{Intel HEX file format}
+\label{fig:hex}
+\end{figure}
+
+Each line of Intel HEX fileconsists of six parts  :
+\begin{itemize}
+\item \textbf{Start code}, one character, an ASCII colon ':'.
+\item \textbf{Byte count}, two hex digits, a number of bytes (hex digit pairs) in the data field. 16 (0x10) or 32 (0x20) bytes of data are the usual compromise values between line length and address overhead.
+\item \textbf{Address}, four hex digits, a 16-bit address of the beginning of the memory position for the data.
+\item \textbf{Record type}, two hex digits, 00 to 05, defining the type of the data field.
+	\begin{itemize}
+	\item \textbf{00}, data record, contains data and 16-bit address.
+	\item \textbf{01}, End Of File record. Must occur exactly once per file in the last line of the file. The byte count is 00 and the data field is empty. Usually the address field is also 0000, in which case the complete line is ':00000001FF'.
+	\end{itemize}
+\item \textbf{Data}, a sequence of n bytes of the data themselves, represented by 2n hex digits.
+\item \textbf{Checksum}, two hex digits - the least significant byte of the two's complement of the sum of the values of all fields except fields 1 and 6 (Start code ":" byte and two hex digits of the Checksum). It is calculated by adding together the hex-encoded bytes (hex digit pairs), then leaving only the least significant byte of the result, and making a 2's complement (either by subtracting the byte from 0x100, or inverting it by XOR-ing with 0xFF and adding 0x01). If you are not working with 8-bit variables, you must suppress the overflow by AND-ing the result with 0xFF. The overflow may occur since both 0x100-0 and (0x00 XOR 0xFF)+1 equal 0x100. If the checksum is correctly calculated, adding all the bytes (the Byte count, both bytes in Address, the Record type, each Data byte and the Checksum) together will always result in a value wherein the least significant byte is zero (0x00).
+\\For example, on :0300300002337A1E\\
+03 + 00 + 30 + 00 + 02 + 33 + 7A = E2, 2's complement is 1E
+\end{itemize}
+

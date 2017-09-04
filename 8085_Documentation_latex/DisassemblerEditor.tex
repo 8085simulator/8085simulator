@@ -1,0 +1,33 @@
+\section{Writing Hexcode in Disassembler}
+\begin{itemize}
+
+
+\item \textbf{STEP 1:} To Enter the hexcode\\
+
+\begin{tabular}{cccccc}
+\textbf{<Start Code>} & \textbf{<Byte Count>} & \textbf{<Address>} & <\textbf{Record Type>} & \textbf{<Data>} & \textbf{<Checksum>}\\
+: & 10 & 0000 & 00 & Enter 10 bytes  & <ctrl+space>\\
+&&&& of data in Hexadecimal&\\
+&&&& format &
+\end{tabular}
+
+\item \textbf{STEP 2:} To mark end of file\\
+
+\begin{tabular}{cccccc}
+\textbf{<Start Code>} & \textbf{<Byte Count>} & \textbf{<Address>} & <\textbf{Record Type>} & \textbf{<Data>} & \textbf{<Checksum>}\\
+: & 00 & 0000 & 01 &  & FF
+\end{tabular}
+
+\end{itemize}
+
+\paragraph{TOOLS EMBEDDED IN DISASSEMBLER EDITOR}
+\begin{itemize}
+\item \textbf{\textit{AUTO CHECKSUM GENERATION}} \\ Just press \textbf{CTRL+SPACE} at the end of each line it is auto calculated and appended to that line
+\item \textbf{\textit{AUTO SYNTAX HIGHLIGHTING and FORMATING}} \\It is activated on pressing of \textbf{ENTER} key.  
+\end{itemize}
+
+\subsection{Limitation of disassembler}
+\begin{itemize}
+\item Cannot determine the begin address of execution
+\item Fails to distinguish between user defined data code and opcode, so it by default decode all as opcode.
+\end{itemize} 
