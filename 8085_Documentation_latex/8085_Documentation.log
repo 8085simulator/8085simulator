@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2017.6.22)  5 SEP 2017 00:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2017.6.22)  3 OCT 2017 00:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1077,29 +1077,27 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 11.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 18.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 18.
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 20.
 
-<construction.png, id=158, 182.18062pt x 152.82094pt>
-File: construction.png Graphic file (type png)
- <use construction.png>
-Package pdftex.def Info: construction.png used on input line 21.
-(pdftex.def)             Requested size: 48.37263pt x 40.57663pt.
-LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 22.
+<qr_code.png, id=158, 244.66406pt x 234.8775pt>
+File: qr_code.png Graphic file (type png)
+ <use qr_code.png>
+Package pdftex.def Info: qr_code.png used on input line 28.
+(pdftex.def)             Requested size: 96.73788pt x 92.87056pt.
 
 <"./top_page1".png, id=159, 1058.45438pt x 794.97pt>
 File: "./top_page1".png Graphic file (type png)
  <use "./top_page1".png>
-Package pdftex.def Info: "./top_page1".png used on input line 31.
+Package pdftex.def Info: "./top_page1".png used on input line 37.
 (pdftex.def)             Requested size: 483.69687pt x 363.28885pt.
 )
 [1
 
 
-{c:/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./construction.
-png> <./top_page1.png>]
+{c:/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./qr_code.png> 
+<./top_page1.png>]
 \openout2 = `version.aux'.
 
  (./version.tex
@@ -1294,6 +1292,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 25.
 )) [17]
 \openout2 = `tstate.aux'.
 
@@ -1303,28 +1303,28 @@ Chapter 6.
 
 
 
-] <./TStateEditorBefore.png, id=396, 721.94719pt x 532.23843pt>
+] <./TStateEditorBefore.png, id=397, 721.94719pt x 532.23843pt>
 File: ./TStateEditorBefore.png Graphic file (type png)
 
 <use ./TStateEditorBefore.png>
 Package pdftex.def Info: ./TStateEditorBefore.png used on input line 27.
 (pdftex.def)             Requested size: 362.77264pt x 267.44232pt.
 
-<./TStateBefore.png, id=397, 1027.58907pt x 387.69844pt>
+<./TStateBefore.png, id=398, 1027.58907pt x 387.69844pt>
 File: ./TStateBefore.png Graphic file (type png)
 
 <use ./TStateBefore.png>
 Package pdftex.def Info: ./TStateBefore.png used on input line 33.
 (pdftex.def)             Requested size: 483.69687pt x 182.49632pt.
  [19 <./TStateEditorBefore.png> <./TStateBefore.png>]
-<./TStateEditorAfter.png, id=407, 723.45282pt x 532.23843pt>
+<./TStateEditorAfter.png, id=408, 723.45282pt x 532.23843pt>
 File: ./TStateEditorAfter.png Graphic file (type png)
 
 <use ./TStateEditorAfter.png>
 Package pdftex.def Info: ./TStateEditorAfter.png used on input line 43.
 (pdftex.def)             Requested size: 362.77264pt x 266.89008pt.
 
-<./TStateAfter.png, id=408, 1030.60031pt x 387.69844pt>
+<./TStateAfter.png, id=409, 1030.60031pt x 387.69844pt>
 File: ./TStateAfter.png Graphic file (type png)
 
 <use ./TStateAfter.png>
@@ -1336,7 +1336,7 @@ Package pdftex.def Info: ./TStateAfter.png used on input line 49.
 
  (./kit.tex
 Chapter 7.
-<"./kit".png, id=419, 557.08125pt x 380.92313pt>
+<"./kit".png, id=420, 557.08125pt x 380.92313pt>
 File: "./kit".png Graphic file (type png)
  <use "./kit".png>
 Package pdftex.def Info: "./kit".png used on input line 8.
@@ -1345,7 +1345,7 @@ Package pdftex.def Info: "./kit".png used on input line 8.
 
 
 
- <./kit.png>] <sampleCode2Asm.png, id=430, 330.48468pt x 112.92188pt>
+ <./kit.png>] <sampleCode2Asm.png, id=431, 330.48468pt x 112.92188pt>
 File: sampleCode2Asm.png Graphic file (type png)
 
 <use sampleCode2Asm.png>
@@ -1361,25 +1361,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  (./debug.tex
 Chapter 8.
-<./Debug_1.png, id=466, 783.4068pt x 540.0978pt>
+<./Debug_1.png, id=467, 783.4068pt x 540.0978pt>
 File: ./Debug_1.png Graphic file (type png)
  <use ./Debug_1.png>
 Package pdftex.def Info: ./Debug_1.png used on input line 5.
 (pdftex.def)             Requested size: 435.32422pt x 300.12868pt.
 
-<./Debug_2.png, id=467, 724.6272pt x 539.1342pt>
+<./Debug_2.png, id=468, 724.6272pt x 539.1342pt>
 File: ./Debug_2.png Graphic file (type png)
  <use ./Debug_2.png>
 Package pdftex.def Info: ./Debug_2.png used on input line 12.
 (pdftex.def)             Requested size: 435.32422pt x 323.88611pt.
 
-<./Debug_3.png, id=468, 577.55775pt x 431.211pt>
+<./Debug_3.png, id=469, 577.55775pt x 431.211pt>
 File: ./Debug_3.png Graphic file (type png)
  <use ./Debug_3.png>
 Package pdftex.def Info: ./Debug_3.png used on input line 19.
 (pdftex.def)             Requested size: 435.32422pt x 325.02606pt.
 
-<./Debug_4.png, id=469, 722.7pt x 539.1342pt>
+<./Debug_4.png, id=470, 722.7pt x 539.1342pt>
 File: ./Debug_4.png Graphic file (type png)
  <use ./Debug_4.png>
 Package pdftex.def Info: ./Debug_4.png used on input line 26.
@@ -1398,20 +1398,20 @@ Chapter 9.
 
 
 
-] <delay_sub_mark.png, id=494, 987.69pt x 335.75438pt>
+] <delay_sub_mark.png, id=495, 987.69pt x 335.75438pt>
 File: delay_sub_mark.png Graphic file (type png)
 
 <use delay_sub_mark.png>
 Package pdftex.def Info: delay_sub_mark.png used on input line 10.
 (pdftex.def)             Requested size: 386.95897pt x 131.53796pt.
 
-<delay_sub_reg.png, id=495, 677.53125pt x 417.05812pt>
+<delay_sub_reg.png, id=496, 677.53125pt x 417.05812pt>
 File: delay_sub_reg.png Graphic file (type png)
  <use delay_sub_reg.png>
 Package pdftex.def Info: delay_sub_reg.png used on input line 12.
 (pdftex.def)             Requested size: 241.84843pt x 148.86804pt.
 
-<delay_sub_reg_choose.png, id=496, 1207.51125pt x 402.75468pt>
+<delay_sub_reg_choose.png, id=497, 1207.51125pt x 402.75468pt>
 File: delay_sub_reg_choose.png Graphic file (type png)
 
 <use delay_sub_reg_choose.png>
@@ -1423,28 +1423,28 @@ Overfull \hbox (12.0pt too wide) in paragraph at lines 9--17
  []
 
 [31 <./delay_sub_mark.png> <./delay_sub_reg.png> <./delay_sub_reg_choose.png>]
-<delay_sub_filled_form.png, id=507, 279.444pt x 179.4705pt>
+<delay_sub_filled_form.png, id=508, 279.444pt x 179.4705pt>
 File: delay_sub_filled_form.png Graphic file (type png)
 
 <use delay_sub_filled_form.png>
 Package pdftex.def Info: delay_sub_filled_form.png used on input line 33.
 (pdftex.def)             Requested size: 241.84843pt x 155.32747pt.
 
-<delay_sub_assembler_editor.png, id=508, 545.03625pt x 645.16031pt>
+<delay_sub_assembler_editor.png, id=509, 545.03625pt x 645.16031pt>
 File: delay_sub_assembler_editor.png Graphic file (type png)
 
 <use delay_sub_assembler_editor.png>
 Package pdftex.def Info: delay_sub_assembler_editor.png used on input line 33.
 (pdftex.def)             Requested size: 241.84843pt x 286.27342pt.
 
-<delay_sub_compiled.png, id=509, 283.65974pt x 86.724pt>
+<delay_sub_compiled.png, id=510, 283.65974pt x 86.724pt>
 File: delay_sub_compiled.png Graphic file (type png)
 
 <use delay_sub_compiled.png>
 Package pdftex.def Info: delay_sub_compiled.png used on input line 35.
 (pdftex.def)             Requested size: 241.84843pt x 73.94069pt.
 
-<delay_sub_calc.png, id=510, 246.9225pt x 78.89474pt>
+<delay_sub_calc.png, id=511, 246.9225pt x 78.89474pt>
 File: delay_sub_calc.png Graphic file (type png)
  <use delay_sub_calc.png>
 Package pdftex.def Info: delay_sub_calc.png used on input line 35.
@@ -1461,25 +1461,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--41
 
 [32 <./delay_sub_filled_form.png> <./delay_sub_assembler_editor.png> <./delay_s
 ub_compiled.png> <./delay_sub_calc.png>]
-<isr_nop.png, id=522, 298.716pt x 259.56975pt>
+<isr_nop.png, id=523, 298.716pt x 259.56975pt>
 File: isr_nop.png Graphic file (type png)
  <use isr_nop.png>
 Package pdftex.def Info: isr_nop.png used on input line 50.
 (pdftex.def)             Requested size: 241.84843pt x 210.15924pt.
 
-<isr_label.png, id=523, 299.31825pt x 257.763pt>
+<isr_label.png, id=524, 299.31825pt x 257.763pt>
 File: isr_label.png Graphic file (type png)
  <use isr_label.png>
 Package pdftex.def Info: isr_label.png used on input line 50.
 (pdftex.def)             Requested size: 241.84843pt x 208.27165pt.
 
-<isr_label_autofill.png, id=524, 299.9205pt x 258.9675pt>
+<isr_label_autofill.png, id=525, 299.9205pt x 258.9675pt>
 File: isr_label_autofill.png Graphic file (type png)
 
 <use isr_label_autofill.png>
 Package pdftex.def Info: isr_label_autofill.png used on input line 52.
 (pdftex.def)             Requested size: 241.84843pt x 208.8339pt.
- <isr_memory.png, id=525, 263.7855pt x 77.69025pt>
+ <isr_memory.png, id=526, 263.7855pt x 77.69025pt>
 File: isr_memory.png Graphic file (type png)
 
 <use isr_memory.png>
@@ -1491,32 +1491,32 @@ Overfull \hbox (63.15848pt too wide) in paragraph at lines 49--56
  []
 
 [33 <./isr_nop.png> <./isr_label.png> <./isr_label_autofill.png> <./isr_memory.
-png>] <no_tool.png, id=535, 245.718pt x 39.14626pt>
+png>] <no_tool.png, id=536, 245.718pt x 39.14626pt>
 File: no_tool.png Graphic file (type png)
  <use no_tool.png>
 Package pdftex.def Info: no_tool.png used on input line 68.
 (pdftex.def)             Requested size: 241.84843pt x 38.5315pt.
 
-<no_tool_select.png, id=536, 323.70938pt x 52.69687pt>
+<no_tool_select.png, id=537, 323.70938pt x 52.69687pt>
 File: no_tool_select.png Graphic file (type png)
 
 <use no_tool_select.png>
 Package pdftex.def Info: no_tool_select.png used on input line 68.
 (pdftex.def)             Requested size: 241.84843pt x 39.37057pt.
- <no_tool_value.png, id=537, 248.127pt x 40.35075pt>
+ <no_tool_value.png, id=538, 248.127pt x 40.35075pt>
 File: no_tool_value.png Graphic file (type png)
 
 <use no_tool_value.png>
 Package pdftex.def Info: no_tool_value.png used on input line 70.
 (pdftex.def)             Requested size: 241.84843pt x 39.3298pt.
 
-<no_tool_value_dec.png, id=538, 246.9225pt x 41.55525pt>
+<no_tool_value_dec.png, id=539, 246.9225pt x 41.55525pt>
 File: no_tool_value_dec.png Graphic file (type png)
 
 <use no_tool_value_dec.png>
 Package pdftex.def Info: no_tool_value_dec.png used on input line 71.
 (pdftex.def)             Requested size: 241.84843pt x 40.70102pt.
- <no_tool_bin.png, id=539, 248.72925pt x 40.953pt>
+ <no_tool_bin.png, id=540, 248.72925pt x 40.953pt>
 File: no_tool_bin.png Graphic file (type png)
 
 <use no_tool_bin.png>
@@ -1550,7 +1550,7 @@ Package logreq Info: Writing requests to '8085_Documentation.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  20254 strings out of 493315
- 318187 string characters out of 6141455
+ 318162 string characters out of 6141455
  724134 words of memory out of 5000000
  23037 multiletter control sequences out of 15000+600000
  58458 words of font info for 69 fonts, out of 8000000 for 9000
@@ -1567,9 +1567,9 @@ ve/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2013/texmf-dist
 /fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2013/texmf-dist/fonts/type1/urw/
 times/utmr8a.pfb><c:/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 c:/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 8085_Documentation.pdf (41 pages, 4886326 bytes).
+Output written on 8085_Documentation.pdf (41 pages, 4914399 bytes).
 PDF statistics:
- 638 PDF objects out of 1000 (max. 8388607)
+ 639 PDF objects out of 1000 (max. 8388607)
  514 compressed objects within 6 object streams
  157 named destinations out of 1000 (max. 500000)
  490 words of extra memory for PDF output out of 10000 (max. 10000000)
