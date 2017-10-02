@@ -3212,7 +3212,7 @@ public int find=0;
 
     private void jMenuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem10ActionPerformed
         try {
-                    Desktop.getDesktop().browse(new URI("http://8085simulator.codeplex.com/downloads/get/88757"));
+                    Desktop.getDesktop().browse(new URI("https://github.com/8085simulator/8085simulator/raw/master/8085_Documentation_latex/8085_Documentation.pdf"));
                 } catch (Exception ex) {
                     //It looks like there's a problem
                 }        // TODO add your handling code here:
