@@ -32,11 +32,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Number Format Support}{13}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Binary Number Entry Format}{13}{section*.21}
+\contentsline {paragraph}{Binary Number Entry Format}{13}{section*.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Decimal Number Entry Format}{13}{section*.22}
+\contentsline {paragraph}{Decimal Number Entry Format}{13}{section*.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Hexadecimal Number Entry Format}{13}{section*.23}
+\contentsline {paragraph}{Hexadecimal Number Entry Format}{13}{section*.24}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Disassembler}{14}{chapter.5}
 \defcounter {refsection}{0}\relax 
@@ -46,7 +46,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.3}Writing Hexcode in Disassembler}{17}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{TOOLS EMBEDDED IN DISASSEMBLER EDITOR}{17}{section*.26}
+\contentsline {paragraph}{TOOLS EMBEDDED IN DISASSEMBLER EDITOR}{17}{section*.27}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.1}Limitation of disassembler}{17}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 

@@ -51,7 +51,9 @@
       <file>8085_Documentation.bbl</file>
     </requires>
     <requires type="static">
+      <file>blx-dm.def</file>
       <file>blx-compat.def</file>
+      <file>blx-bibtex.def</file>
       <file>biblatex.def</file>
       <file>blx-natbib.def</file>
       <file>ieee.bbx</file>
@@ -70,7 +72,6 @@
       <binary>bibtex8</binary>
       <option>--wolfgang</option>
       <option>--min_crossrefs 2</option>
-      <option>--csfile latin9.csf</option>
       <infile>8085_Documentation</infile>
     </cmdline>
     <input>
@@ -91,7 +92,6 @@
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
-      <file>latin9.csf</file>
     </requires>
   </external>
 </requests>
